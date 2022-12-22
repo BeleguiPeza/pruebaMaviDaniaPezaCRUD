@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <label>Bienvenido/a {{ usuario }}</label>
+    <label>Bienvenido(a) {{ usuario }}</label>
     <label>
       <router-link to="/clientes">Clientes</router-link>
     </label>
@@ -115,6 +115,11 @@ export default {
   },
   mounted() {
     this.getClientes();
+  },
+  computed: {
+    usuario() {
+      return localStorage.getItem("user");
+    },
   },
   methods: {
     getClientes() {
