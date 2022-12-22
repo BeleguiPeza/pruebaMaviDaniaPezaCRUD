@@ -2,7 +2,8 @@
 
 ## Project setup
 ```
-npm install --save axios vue-axios vue-router@next 
+npm install --save axios vue-axios 
+npm install vue-router@next 
 ```
 
 ### Compiles and hot-reloads for development
