@@ -1,4 +1,9 @@
 <template>
+  <nav>
+    <label>
+      <router-link to="/login">Iniciar Sesión</router-link>
+    </label>
+  </nav>
   <div class="login">
     <form @submit.prevent="enviarLogin">
       <h1>Iniciar Sesión</h1>
@@ -46,6 +51,7 @@ export default {
   align-items: center;
   margin-top: 50px;
   border: black;
+  margin: 10%;
 }
 input,
 button {

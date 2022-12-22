@@ -1,5 +1,9 @@
 <template>
-  <label>Home</label>
+  <nav>
+    <label>
+      <router-link to="/login">Iniciar Sesión</router-link>
+    </label>
+  </nav>
 </template>
 
 <script>
