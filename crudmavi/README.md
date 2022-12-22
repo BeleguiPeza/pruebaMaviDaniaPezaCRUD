@@ -2,17 +2,17 @@
 
 ## Project setup
 ```
-yarn install
+npm install --save axios vue-axios vue-router@next 
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run serve
 ```
 
-### Compiles and minifies for production
+### App running at:
 ```
-yarn build
+  - Local:   http://localhost:8080/
 ```
 
 ### Customize configuration
